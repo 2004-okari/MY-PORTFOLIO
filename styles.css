@@ -1,0 +1,130 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-section {
+  width: 375px;
+  height: 590px;
+  .header {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 48px;
+    background-color: #3c3a39;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 0 36px 0 24px;
+
+    #logo-text {
+      color: white;
+      font-family: 'Roboto', Arial, Helvetica, sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+
+    #img-1 {
+      width: 18px;
+      height: 12px;
+      display: flex;
+      align-items: center;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  }
+
+  .main-content {
+    .section-1 {
+      display: flex;
+      height: 590px;
+      background-color: #1c1a19;
+
+      .article {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 327px;
+        height: 124px;
+
+        .intro {
+          margin: 0;
+          padding: 120px 24px 0 24px;
+          font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 56px;
+          line-height: 64px;
+          letter-spacing: 0.37px;
+          color: #ff6b00;
+          display: flex;
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+        }
+
+        .job-title {
+          margin-top: 12px;
+          padding: 0 24px 0 24px;
+          font-family: 'Roboto', Arial, Helvetica, sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 32px;
+          display: flex;
+          color: #fff5e1;
+          flex: none;
+          order: 1;
+          flex-grow: 0;
+        }
+
+        .job-description {
+          margin-top: -12px;
+          padding: 0 24px 0 24px;
+          font-family: 'Poppins', Arial, Helvetica, sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #fff;
+          display: flex;
+          flex: none;
+          order: 2;
+          flex-grow: 0;
+        }
+
+        .links {
+          width: 160px;
+          margin: 0 24px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          padding: 0;
+          flex: none;
+          order: 3;
+          flex-grow: 0;
+        }
+        .illustration {
+          position: absolute;
+          left: 55.6%;
+          top: 48%;
+        }
+      }
+    }
+  }
+}
