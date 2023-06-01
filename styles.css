@@ -118,6 +118,9 @@ body {
           flex: none;
           order: 3;
           flex-grow: 0;
+          .socials {
+            list-style: none;
+          }
         }
         .illustration {
           position: absolute;
