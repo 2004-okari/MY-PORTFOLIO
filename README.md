@@ -42,11 +42,11 @@ My PORTFOLIO project in Microverse.
 
 ### Key Features <a name="key-features"></a>
 
--prints out a portfolio webpage
--It is made to cater for mobile devices
--Introductory page
--Links to social profiles
--Menu bar that open up to give various options
+1.prints out a portfolio webpage
+2.It is made to cater for mobile devices
+3.Introductory page
+4.Links to social profiles
+5.Menu bar that open up to give various options
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -90,14 +90,14 @@ Open the index.html file on the browser or use a VS code extension server to sta
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-Project 1: Contact form 
-Project 2: Desktop version
-Project 3: Application deploy
-Project 4: Evaluate accessibility 
-Project 5: Mobile menu 
-Project 6: Details modal 
-Project 7: Validate contact form 
-Project 8: Preserve data in the browser 
+1: Contact form 
+2: Desktop version
+3: Application deploy
+4: Evaluate accessibility 
+5: Mobile menu 
+6: Details modal 
+7: Validate contact form 
+8: Preserve data in the browser 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
