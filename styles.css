@@ -55,11 +55,15 @@ body {
 .main-content {
   margin: 0 auto;
   width: 375px;
+  background-color: #1c1a19;
+  background-image: url(images/Illustration.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 125%;
 
   .section-1 {
     height: 590px;
     display: flex;
-    background-color: #1c1a19;
 
     .article {
       display: flex;
@@ -129,12 +133,6 @@ body {
         .socials {
           list-style: none;
         }
-      }
-
-      .illustration {
-        position: absolute;
-        left: 52.7%;
-        top: 34.5%;
       }
     }
   }
