@@ -211,6 +211,10 @@ body {
             background: #f4f1f0;
             color: #5b5957;
           }
+          &:active {
+              background-color: #E05304;
+              color: #fff;
+          }
         }
 
         .recent-html-btn {
@@ -225,6 +229,10 @@ body {
           &:disabled {
             background: #f4f1f0;
             color: #5b5957;
+          }
+          &:active {
+              background-color: #E05304;
+              color: #fff;
           }
         }
 
@@ -241,6 +249,10 @@ body {
             background: #f4f1f0;
             color: #5b5957;
           }
+          &:active {
+              background-color: #E05304;
+              color: #fff;
+          }
         }
 
         .recent-ruby-btn {
@@ -255,6 +267,10 @@ body {
           &:disabled {
             background: #f4f1f0;
             color: #5b5957;
+          }
+          &:active {
+              background-color: #E05304;
+              color: #fff;
           }
         }
       }
@@ -280,6 +296,10 @@ body {
       &:disabled {
         background: #f4f1f0;
         color: #5b5957;
+      }
+      &:active {
+          background-color: #E05304;
+          color: #fff;
       }
     }
   }
@@ -325,6 +345,10 @@ body {
           &:disabled {
             background: #f4f1f0;
             color: #5b5957;
+          }
+          &:active {
+              background-color: #E05304;
+              color: #fff;
           }
         }
 
@@ -400,6 +424,10 @@ body {
                 background: #f4f1f0;
                 color: #5b5957;
               }
+              &:active {
+                  background-color: #E05304;
+                  color: #fff;
+              }
             }
 
             .css-btn-1 {
@@ -415,6 +443,10 @@ body {
                 background: #f4f1f0;
                 color: #5b5957;
               }
+              &:active {
+                  background-color: #E05304;
+                  color: #fff;
+              }
             }
 
             .ruby-btn-1 {
@@ -429,6 +461,10 @@ body {
               &:disabled {
                 background: #f4f1f0;
                 color: #5b5957;
+              }
+              &:active {
+                  background-color: #E05304;
+                  color: #fff;
               }
             }
           }
@@ -507,6 +543,10 @@ body {
           background: #f4f1f0;
           color: #5b5957;
         }
+        &:active {
+          background-color: #E05304;
+          color: #fff;
+      }
       }
 
       .about-text {
