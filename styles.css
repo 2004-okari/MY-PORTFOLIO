@@ -265,7 +265,7 @@ body {
           flex-direction: column;
           width: 327px;
           height: 314px;
-          background-image: url(Img\ Placeholder.png);
+          background-image: url(images/Img\ Placeholder.png);
           background-repeat: no-repeat;
           padding: 0 19px 20px 12px;
 
@@ -332,7 +332,7 @@ body {
     width: 375px;
     height: 1801px;
     background: #1c1a19;
-    background-image: url(Frame.svg);
+    background-image: url(images/Frame.svg);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: 20%;
