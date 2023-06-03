@@ -211,9 +211,10 @@ body {
             background: #f4f1f0;
             color: #5b5957;
           }
+
           &:active {
-              background-color: #E05304;
-              color: #fff;
+            background-color: #e05304;
+            color: #fff;
           }
         }
 
@@ -230,9 +231,10 @@ body {
             background: #f4f1f0;
             color: #5b5957;
           }
+
           &:active {
-              background-color: #E05304;
-              color: #fff;
+            background-color: #e05304;
+            color: #fff;
           }
         }
 
@@ -249,9 +251,10 @@ body {
             background: #f4f1f0;
             color: #5b5957;
           }
+
           &:active {
-              background-color: #E05304;
-              color: #fff;
+            background-color: #e05304;
+            color: #fff;
           }
         }
 
@@ -268,9 +271,10 @@ body {
             background: #f4f1f0;
             color: #5b5957;
           }
+
           &:active {
-              background-color: #E05304;
-              color: #fff;
+            background-color: #e05304;
+            color: #fff;
           }
         }
       }
@@ -297,9 +301,10 @@ body {
         background: #f4f1f0;
         color: #5b5957;
       }
+
       &:active {
-          background-color: #E05304;
-          color: #fff;
+        background-color: #e05304;
+        color: #fff;
       }
     }
   }
@@ -346,9 +351,10 @@ body {
             background: #f4f1f0;
             color: #5b5957;
           }
+
           &:active {
-              background-color: #E05304;
-              color: #fff;
+            background-color: #e05304;
+            color: #fff;
           }
         }
 
@@ -424,9 +430,10 @@ body {
                 background: #f4f1f0;
                 color: #5b5957;
               }
+
               &:active {
-                  background-color: #E05304;
-                  color: #fff;
+                background-color: #e05304;
+                color: #fff;
               }
             }
 
@@ -443,9 +450,10 @@ body {
                 background: #f4f1f0;
                 color: #5b5957;
               }
+
               &:active {
-                  background-color: #E05304;
-                  color: #fff;
+                background-color: #e05304;
+                color: #fff;
               }
             }
 
@@ -462,9 +470,10 @@ body {
                 background: #f4f1f0;
                 color: #5b5957;
               }
+
               &:active {
-                  background-color: #E05304;
-                  color: #fff;
+                background-color: #e05304;
+                color: #fff;
               }
             }
           }
@@ -543,10 +552,11 @@ body {
           background: #f4f1f0;
           color: #5b5957;
         }
+
         &:active {
-          background-color: #E05304;
+          background-color: #e05304;
           color: #fff;
-      }
+        }
       }
 
       .about-text {
