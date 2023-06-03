@@ -155,7 +155,7 @@ body {
       font-style: normal;
       font-weight: 400;
       font-size: 40px;
-      color: #091e42;
+      color: #1c1a19;
     }
 
     .recent-break {
@@ -184,32 +184,80 @@ body {
       display: flex;
       justify-content: space-between;
       flex-direction: row;
+      list-style: none;
+      margin-left: -40px;
 
-      .recent-css-btn,
-      .recent-html-btn,
-      .recent-bootstrap-btn,
-      .recent-ruby-btn {
-        height: 40px;
-        background: #fff;
-        color: #091e42;
-        border: 1px solid #8993a4;
-        margin-bottom: 12px;
-      }
+      .upper-list {
+        .recent-css-btn,
+        .recent-html-btn,
+        .recent-bootstrap-btn,
+        .recent-ruby-btn {
+          height: 40px;
+          background: #fff;
+          color: #091e42;
+          border: 1px solid #8993a4;
+          margin-bottom: 12px;
+        }
 
-      .recent-css-btn {
-        width: 57px;
-      }
+        .recent-css-btn {
+          width: 57px;
 
-      .recent-html-btn {
-        width: 69px;
-      }
+          &:hover {
+            background-color: #fff5e1;
+            border: 1px solid #f55800;
+            color: #f55800;
+          }
 
-      .recent-bootstrap-btn {
-        width: 95px;
-      }
+          &:disabled {
+            background: #f4f1f0;
+            color: #5b5957;
+          }
+        }
 
-      .recent-ruby-btn {
-        width: 64px;
+        .recent-html-btn {
+          width: 69px;
+
+          &:hover {
+            background-color: #fff5e1;
+            border: 1px solid #f55800;
+            color: #f55800;
+          }
+
+          &:disabled {
+            background: #f4f1f0;
+            color: #5b5957;
+          }
+        }
+
+        .recent-bootstrap-btn {
+          width: 95px;
+
+          &:hover {
+            background-color: #fff5e1;
+            border: 1px solid #f55800;
+            color: #f55800;
+          }
+
+          &:disabled {
+            background: #f4f1f0;
+            color: #5b5957;
+          }
+        }
+
+        .recent-ruby-btn {
+          width: 64px;
+
+          &:hover {
+            background-color: #fff5e1;
+            border: 1px solid #f55800;
+            color: #f55800;
+          }
+
+          &:disabled {
+            background: #f4f1f0;
+            color: #5b5957;
+          }
+        }
       }
     }
 
@@ -223,6 +271,17 @@ body {
       height: 48px;
       width: 124px;
       border: none;
+
+      &:hover {
+        background-color: #fff5e1;
+        border: 1px solid #f55800;
+        color: #f55800;
+      }
+
+      &:disabled {
+        background: #f4f1f0;
+        color: #5b5957;
+      }
     }
   }
 
@@ -257,6 +316,17 @@ body {
           line-height: 24px;
           letter-spacing: 0.03em;
           padding: 0;
+
+          &:hover {
+            background-color: #fff5e1;
+            border: 1px solid #f55800;
+            color: #f55800;
+          }
+
+          &:disabled {
+            background: #f4f1f0;
+            color: #5b5957;
+          }
         }
 
         .proj-image {
@@ -294,31 +364,74 @@ body {
         .preview-buttons {
           display: flex;
           flex-direction: row;
+          list-style: none;
+          justify-content: flex-start;
+          margin-left: -40px;
 
           .html-btn,
           .css-btn,
           .ruby-btn {
-            border: none;
-            height: 40px;
-            background: rgba(255, 255, 255, 0.24);
+            display: flex;
+            justify-content: center;
             margin-right: 10px;
-            color: #fff;
-            font-family: 'Inter', Arial, Helvetica, sans-serif;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 15px;
-          }
 
-          .html-btn {
-            width: 67px;
-          }
+            .html-btn-1,
+            .css-btn-1,
+            .ruby-btn-1 {
+              border: none;
+              height: 40px;
+              background: rgba(255, 255, 255, 0.24);
+              color: #fff;
+              font-family: 'Inter', Arial, Helvetica, sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+            }
 
-          .css-btn {
-            width: 95px;
-          }
+            .html-btn-1 {
+              width: 67px;
 
-          .ruby-btn {
-            width: 61px;
+              &:hover {
+                background-color: #fff5e1;
+                border: 1px solid #f55800;
+                color: #f55800;
+              }
+
+              &:disabled {
+                background: #f4f1f0;
+                color: #5b5957;
+              }
+            }
+
+            .css-btn-1 {
+              width: 95px;
+
+              &:hover {
+                background-color: #fff5e1;
+                border: 1px solid #f55800;
+                color: #f55800;
+              }
+
+              &:disabled {
+                background: #f4f1f0;
+                color: #5b5957;
+              }
+            }
+
+            .ruby-btn-1 {
+              width: 61px;
+
+              &:hover {
+                background-color: #fff5e1;
+                border: 1px solid #f55800;
+                color: #f55800;
+              }
+
+              &:disabled {
+                background: #f4f1f0;
+                color: #5b5957;
+              }
+            }
           }
         }
       }
@@ -386,71 +499,85 @@ body {
         order: 2;
         flex-grow: 0;
 
-        .about-text {
-          font-family: 'Inter', Arial, Helvetica, sans-serif;
-          font-style: normal;
-          font-weight: 700;
-          font-size: 17px;
-          line-height: 24px;
-          display: flex;
-          align-items: center;
-          text-align: center;
-          letter-spacing: 0.03em;
-          color: #fff;
-          flex: none;
-          order: 0;
-          flex-grow: 0;
-          outline-style: none;
+        &:hover {
+          background-color: #fff5e1;
+          border: 1px solid #f55800;
+        }
+
+        &:disabled {
+          background: #f4f1f0;
+          color: #5b5957;
         }
       }
 
-      .about-image {
-        position: absolute;
-        width: 200.27px;
-        height: 300px;
-        left: 699px;
-        top: 304px;
-      }
-    }
-
-    .line-break {
-      display: flex;
-      position: relative;
-      border-bottom: 1px solid #fff;
-      width: 327px;
-      margin: 0 auto;
-      top: 230px;
-    }
-
-    .article-3 {
-      list-style: none;
-      position: relative;
-      padding: 0;
-      top: 370px;
-      text-align: center;
-      color: #fff;
-
-      .list {
-        display: block;
-        margin: 0 10px;
+      .about-text {
         font-family: 'Inter', Arial, Helvetica, sans-serif;
         font-style: normal;
-        font-weight: 400;
-        font-size: 22px;
-        margin-bottom: 40px;
-      }
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #fff;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        outline-style: none;
 
-      .list-1 {
-        font-size: 30px;
-        font-weight: 900;
-        margin-bottom: 30px;
-        margin-left: -10px;
-
-        .rec-image {
-          margin-right: 10px;
-          width: 18px;
-          height: 18px;
+        &:hover {
+          color: #f55800;
         }
+      }
+    }
+
+    .about-image {
+      position: absolute;
+      width: 200.27px;
+      height: 300px;
+      left: 699px;
+      top: 304px;
+    }
+  }
+
+  .line-break {
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid #fff;
+    width: 327px;
+    margin: 0 auto;
+    top: 230px;
+  }
+
+  .article-3 {
+    list-style: none;
+    position: relative;
+    padding: 0;
+    top: 370px;
+    text-align: center;
+    color: #fff;
+
+    .list {
+      display: block;
+      margin: 0 10px;
+      font-family: 'Inter', Arial, Helvetica, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      margin-bottom: 40px;
+    }
+
+    .list-1 {
+      font-size: 30px;
+      font-weight: 900;
+      margin-bottom: 30px;
+      margin-left: -10px;
+
+      .rec-image {
+        margin-right: 10px;
+        width: 18px;
+        height: 18px;
       }
     }
   }
