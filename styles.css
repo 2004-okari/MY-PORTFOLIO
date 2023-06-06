@@ -631,4 +631,89 @@ body {
       }
     }
   }
+  .section-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 375px;
+    .form-sec {
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44px;
+        text-align: center;
+        color: #172B4D;
+        margin: 0 auto;
+        width: 87.2%;
+        #name-id, #email-id {
+            width: 87.2%;
+            margin: 0 auto 0 6.4%;
+            font-family: 'Inter', Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 24px;
+            border: none;
+            outline: none;
+            &:valid {
+                outline: 1.5px solid green;
+            }
+        }
+        .seperate-line {
+            width: 87.2%;
+            margin: 0 auto;
+            border: 1px solid #DBD8D7;
+            margin-top: 3.2%;
+        }
+        #text-area {
+            background-color: #FBF8F7;
+            height: 5%;
+            width: 87.2%;
+            border: none;
+            margin-top: 10%;
+            margin-bottom: 5%;
+            color: #3C3A39;
+            font-family: 'Inter', Arial, Helvetica, sans-serif;
+            font-style: italic;
+            font-weight: 200;
+            font-size: 15px;
+            padding: 4%;
+        }
+        #submit {
+            width: 45%;
+            padding: 5%;
+            background-color: #FF6B00;
+            border: none;
+            color: #fff;
+            font-family: 'Inter', Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+        }
+        .seperate-line-2 {
+            border: 1px solid #DBD8D7;
+            margin-top: 20.2%;
+        }
+    }
+       
+}
+.footer-sec {
+  display: flex;
+  margin: 0% auto;
+  padding: 0%;
+  width: 100%;
+.contact-list {
+  padding: 0;
+  width: 50%;
+  margin: 9% auto 12% auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  list-style: none;
+} 
+}
 }
