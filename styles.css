@@ -701,6 +701,27 @@ body {
           font-style: normal;
           font-weight: 700;
           font-size: 17px;
+          &:enabled {
+            background-color: #F55800;
+          }
+
+          &:hover {
+            background-color: #fff5e1;
+            border: 1px solid #f55800;
+            color: #F55800;
+            margin-bottom: -0.4%;
+          }
+          
+
+          &:disabled {
+            background: #f4f1f0;
+            color: #5b5957;
+          }
+
+          &:active {
+            background-color: #e05304;
+            color: #fff;
+          }
         }
 
         .seperate-line-2 {
@@ -728,3 +749,7 @@ body {
     }
   }
 }
+
+
+
+
