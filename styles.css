@@ -6,7 +6,6 @@ body {
   margin: 0 auto;
   box-sizing: border-box;
   width: 375px;
-}
 
 .header {
   width: 84%;
@@ -640,6 +639,7 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
     width: 375px;
+    background-color: #ffffff;
 
     .form-sec {
       font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -710,20 +710,22 @@ body {
     }
   }
 
-  .footer-sec {
+  
+}
+.footer-sec {
+  display: flex;
+  margin: 0% auto;
+  flex-direction: row;
+  padding: 0%;
+  width: 100%;
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    width: 50%;
+    margin: 9% auto 12% auto;
     display: flex;
-    margin: 0% auto;
-    padding: 0%;
-    width: 100%;
-
-    .contact-list {
-      padding: 0;
-      width: 50%;
-      margin: 9% auto 12% auto;
-      display: flex;
-      justify-content: space-around;
-      flex-direction: row;
-      list-style: none;
-    }
+    justify-content: space-around;
   }
+}
 }
