@@ -49,6 +49,7 @@ My PORTFOLIO project in Microverse.
   5.Menu bar that open up to give various options
   6.Preview of project page
   7.About section with personal skills
+  8.contact section
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -92,14 +93,13 @@ Open the index.html file on the browser or use a VS code extension server to sta
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-1: Contact form (mobile version)
-2: Desktop version
-3: Application deploy
-4: Evaluate accessibility 
-5: Mobile menu 
-6: Details modal 
-7: Validate contact form 
-8: Preserve data in the browser 
+1: Desktop version
+2: Application deploy
+3: Evaluate accessibility 
+4: Mobile menu 
+5: Details modal 
+6: Validate contact form 
+7: Preserve data in the browser 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,6 +108,10 @@ Open the index.html file on the browser or use a VS code extension server to sta
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+
+##👍 Contributors
+- GitHub: https://github.com/2004-okari/MY-PORTFOLIO/commits?author=lewisjn-arch
+- - GitHub: [https://github.com/2004-okari](https://github.com/2004-okari/MY-PORTFOLIO/commits?author=Akorede3133)
 
 Feel free to check the [issues page](https://github.com/2004-okari/MY-PORTFOLIO/issues).
 
