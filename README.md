@@ -31,7 +31,7 @@
 
 My PORTFOLIO project in Microverse.
 
-**[PORTFLIO]** is a project experience that Microverse offers to help nuture your skills in designing on small screens.  
+**[PORTFLIO]** is a project experience that Microverse offers to help nuture your skills in designing on different screen sizes.  
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -43,13 +43,14 @@ My PORTFOLIO project in Microverse.
 ### Key Features <a name="key-features"></a>
 
   1.prints out a portfolio webpage
-  2.It is made to cater for mobile devices
+  2.It is made to cater for mobile devices and desktops
   3.Introductory page
   4.Links to social profiles
   5.Menu bar that open up to give various options
   6.Preview of project page
   7.About section with personal skills
   8.contact section
+  9.Responsive design
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -93,13 +94,12 @@ Open the index.html file on the browser or use a VS code extension server to sta
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-1: Desktop version
-2: Application deploy
-3: Evaluate accessibility 
-4: Mobile menu 
-5: Details modal 
-6: Validate contact form 
-7: Preserve data in the browser 
+1: Application deploy
+2: Evaluate accessibility 
+3: Mobile menu 
+4: Details modal 
+5: Validate contact form 
+6: Preserve data in the browser 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
