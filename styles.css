@@ -474,16 +474,12 @@ body {
           font-style: normal;
           font-weight: 700;
           font-size: 17px;
-          transition: transform 500ms;
-          transition-timing-function: cubic-bezier(.75, -3, 0.55, 4);
-
+          
           &:hover {
             background-color: #fff5e1;
             border: 1px solid #f55800;
-            color: #f55800;
-            transform: scale(0.9);
-            translate: 10px 10px;
-          }
+            color: #f55800;          }
+
           &:disabled {
             background: #f4f1f0;
             color: #5b5957;
