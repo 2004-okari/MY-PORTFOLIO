@@ -481,8 +481,9 @@ body {
             background-color: #fff5e1;
             border: 1px solid #f55800;
             color: #f55800;
+            transform: scale(0.9);
+            translate: 10px 10px;
           }
-
           &:disabled {
             background: #f4f1f0;
             color: #5b5957;
