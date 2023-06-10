@@ -79,18 +79,12 @@ Open the index.html file on the browser or use a VS code extension server to sta
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-## 👥 Authors <a name="authors"></a>
-
 👤 **2004-okari**
 
-- GitHub: https://github.com/2004-okari
-- LinkedIn: (https://www.linkedin.com/in/rooney-okari-86a5ba250/)
+- GitHub: [2004-Okari](https://github.com/2004-okari)
+- LinkedIn: [Okari-Nyandika](https://www.linkedin.com/in/rooney-okari-86a5ba250/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -103,21 +97,17 @@ Open the index.html file on the browser or use a VS code extension server to sta
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 ##👍 Contributors
-- GitHub: https://github.com/2004-okari/MY-PORTFOLIO/commits?author=lewisjn-arch
-- - GitHub: [https://github.com/2004-okari](https://github.com/2004-okari/MY-PORTFOLIO/commits?author=Akorede3133)
+- GitHub: [Lewis Hinga](https://github.com/2004-okari/MY-PORTFOLIO/commits?author=lewisjn-arch)
+- GitHub: [Akorede](https://github.com/2004-okari/MY-PORTFOLIO/commits?author=Akorede3133)
 
 Feel free to check the [issues page](https://github.com/2004-okari/MY-PORTFOLIO/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -125,16 +115,13 @@ If you like this project you can star the repository to make it look better.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for giving me all the necessary knowledge i need to make this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
 
