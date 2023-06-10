@@ -474,6 +474,8 @@ body {
           font-style: normal;
           font-weight: 700;
           font-size: 17px;
+          transition: transform 500ms;
+          transition-timing-function: cubic-bezier(.75, -3, 0.55, 4);
 
           &:hover {
             background-color: #fff5e1;
