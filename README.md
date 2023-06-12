@@ -14,7 +14,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -52,6 +52,9 @@ My PORTFOLIO project in Microverse.
   8.contact section
   9.Responsive design
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+This is the link [Link to page](https://2004-okari.github.io/MY-PORTFOLIO/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -88,12 +91,11 @@ Open the index.html file on the browser or use a VS code extension server to sta
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-1: Application deploy
-2: Evaluate accessibility 
-3: Mobile menu 
-4: Details modal 
-5: Validate contact form 
-6: Preserve data in the browser 
+1: Evaluate accessibility 
+2: Mobile menu 
+3: Details modal 
+4: Validate contact form 
+5: Preserve data in the browser 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
