@@ -52,9 +52,6 @@ My PORTFOLIO project in Microverse.
   8.contact section
   9.Responsive design
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-This is the link [Link to page](https://2004-okari.github.io/MY-PORTFOLIO/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
