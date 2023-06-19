@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300;400;500&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="header">
@@ -16,8 +17,9 @@
             My Logo
         </a>
         <nav class="icon-menu">
-            <img src="images/icon-menu.png" alt="icon-menu" id="img-1">
+            <i class="fa fa-bars" id="icon-1" aria-hidden="true"></i>            
             <ul class="img-1-nav">
+                <i  class="fa fa-times" id="close" aria-hidden="true"></i>
                 <li class="img-list"><a href="#" class="reference">Portfolio</a></li>
                 <li class="img-list"><a href="#" class="reference">About</a></li>
                 <li class="img-list"><a href="#" class="reference">Contact</a></li>
@@ -259,5 +261,7 @@
             <li><a href="https://medium.com"><img src="images/med.svg" alt="profile-images"></a></li>
         </ul>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
