@@ -44,11 +44,10 @@ body {
 
     .icon-menu {
       #icon-1 {
-        color: #FFFFFF;
+        color: #fff;
         font-size: x-large;
         cursor: pointer;
       }
-     
 
       .img-1-nav {
         background-color: #3c3a39;
@@ -66,24 +65,28 @@ body {
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
+
         #close {
-          color: #67798E;
+          color: #67798e;
           font-size: 32px;
           align-self: flex-end;
           padding: 10px 34px 0 0;
           margin-bottom: 20px;
           cursor: pointer;
         }
+
         .img-list {
           width: 87%;
           margin: 0 auto;
           margin-bottom: 10px;
           padding-bottom: 10px;
           border-bottom: 1px solid #808080;
+
           &:last-of-type {
             visibility: hidden;
           }
-          .reference{
+
+          .reference {
             color: #fff5e1;
             text-decoration: none;
             font-size: 32px;
@@ -756,9 +759,11 @@ body {
     .header {
       .icon-menu {
         height: 48px;
+
         #icon-1 {
           display: none;
         }
+
         .img-1-nav {
           position: relative;
           visibility: visible;
@@ -767,27 +772,31 @@ body {
           justify-content: space-around;
           align-items: center;
           height: 48px;
+
           #close {
             display: none;
           }
+
           .img-list {
             margin: 0;
             padding: 0;
             margin-right: 10px;
             visibility: visible;
+
             &:last-of-type {
               visibility: visible;
             }
+
             border: none;
+
             .reference {
               font-size: 20px;
             }
-            
           }
         }
       }
     }
-    
+
     .main-content {
       .section-1 {
         padding: 14% 0;
@@ -850,7 +859,7 @@ body {
             display: flex;
             flex-direction: row;
             justify-content: center;
-            align-items: top;
+            align-items: baseline;
 
             .recent-img {
               width: 60%;
