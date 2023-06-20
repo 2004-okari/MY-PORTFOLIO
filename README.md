@@ -103,7 +103,7 @@ Contributions, issues, and feature requests are welcome!
 ##👍 Contributors
 - GitHub: [Lewis Hinga](https://github.com/2004-okari/MY-PORTFOLIO/commits?author=lewisjn-arch)
 - GitHub: [Akorede](https://github.com/2004-okari/MY-PORTFOLIO/commits?author=Akorede3133)
-- Github: [NalianAchei2020]()
+- Github: [NalianAchei2020](https://github.com/2004-okari/MY-PORTFOLIO/commitauthor=NalianAchei2020)
 
 Feel free to check the [issues page](https://github.com/2004-okari/MY-PORTFOLIO/issues).
 
