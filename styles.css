@@ -859,7 +859,7 @@ body {
             display: flex;
             flex-direction: row;
             justify-content: center;
-            align-items: baseline;
+            align-items: top;
 
             .recent-img {
               width: 60%;
