@@ -42,15 +42,16 @@ My PORTFOLIO project in Microverse.
 
 ### Key Features <a name="key-features"></a>
 
-  1.prints out a portfolio webpage
-  2.It is made to cater for mobile devices and desktops
-  3.Introductory page
-  4.Links to social profiles
-  5.Menu bar that open up to give various options
-  6.Preview of project page
-  7.About section with personal skills
-  8.contact section
-  9.Responsive design
+  1. prints out a portfolio webpage
+  2. It is made to cater for mobile devices and desktops
+  3. Introductory page
+  4. Links to social profiles
+  5. Menu bar that open up to give various options
+  6. Preview of the project page
+  7. About section with personal skills
+  8. contact section
+  9. Responsive design
+  10. Popup menu
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -88,11 +89,9 @@ Open the index.html file on the browser or use a VS code extension server to sta
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-1: Evaluate accessibility 
-2: Mobile menu 
-3: Details modal 
-4: Validate contact form 
-5: Preserve data in the browser 
+1: Details modal 
+2: Validate contact form 
+3: Preserve data in the browser 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,6 +102,7 @@ Contributions, issues, and feature requests are welcome!
 ##👍 Contributors
 - GitHub: [Lewis Hinga](https://github.com/2004-okari/MY-PORTFOLIO/commits?author=lewisjn-arch)
 - GitHub: [Akorede](https://github.com/2004-okari/MY-PORTFOLIO/commits?author=Akorede3133)
+- Github: [NalianAchei2020](https://github.com/2004-okari/MY-PORTFOLIO/commitauthor=NalianAchei2020)
 
 Feel free to check the [issues page](https://github.com/2004-okari/MY-PORTFOLIO/issues).
 

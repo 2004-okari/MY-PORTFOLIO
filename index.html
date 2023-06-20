@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300;400;500&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="header">
@@ -16,12 +17,13 @@
             My Logo
         </a>
         <nav class="icon-menu">
-            <img src="images/icon-menu.png" alt="icon-menu" id="img-1">
+            <i class="fa fa-bars" id="icon-1" aria-hidden="true"></i>            
             <ul class="img-1-nav">
-                <li class="img-list"><a href="#" class="reference">Portfolio</a></li>
-                <li class="img-list"><a href="#" class="reference">About</a></li>
-                <li class="img-list"><a href="#" class="reference">Contact</a></li>
-                <li class="img-list"><a href="#" class="reference"><img src="images/email.svg" alt="email-icon"></a></li>
+                <i  class="fa fa-times" id="close" aria-hidden="true"></i>
+                <li class="img-list"><a href="#portfolio" class="reference refer-1">Portfolio</a></li>
+                <li class="img-list"><a href="#about" class="reference refer-2">About</a></li>
+                <li class="img-list"><a href="#contact" class="reference refer-3">Contact</a></li>
+                <li class="img-list"><a href="https://mail.google.com/?" target="_blank" class="reference"><img src="images/email.svg" alt="email-icon"></a></li>
             </ul>
         </nav>
     </header>
@@ -68,7 +70,7 @@
             </ul>
         </section>
         <!--Work section and about section-->
-        <section class="section-2">
+        <section class="section-2" id="portfolio">
             <article class="recent-article">
                 <div class="recent-div">
                     <h2 class="recent-text">My Recent Works</h2>
@@ -198,7 +200,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-4">
+        <section class="section-4" id="about">
             <article class="article-2">
                 <h1 class="about-me">About me</h1>
                 <p class="about-description">
@@ -235,7 +237,7 @@
                 </ul>
             </div>
         </section>
-        <section class="section-5">
+        <section class="section-5" id="contact">
             <h3 class="contact-text">
                 I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
             </h3>
@@ -259,5 +261,7 @@
             <li><a href="https://medium.com"><img src="images/med.svg" alt="profile-images"></a></li>
         </ul>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
