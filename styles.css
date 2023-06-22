@@ -480,6 +480,7 @@ body {
       position: fixed;
       top: 0%;
       z-index: 6;
+
       .popup-card {
         width: 90%;
         z-index: 9;
