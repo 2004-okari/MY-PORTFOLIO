@@ -1,4 +1,4 @@
-//  Hamburger Menu 
+//  Hamburger Menu
 
 const dropDown = document.getElementById('icon-1');
 const closeUp = document.getElementById('close');
@@ -15,6 +15,3 @@ closeUp.addEventListener('click', closing);
 closePort.addEventListener('click', closing);
 closeAbout.addEventListener('click', closing);
 closeCont.addEventListener('click', closing);
-
-
-
