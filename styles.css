@@ -1,4 +1,8 @@
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   z-index: 1;
   display: flex;
