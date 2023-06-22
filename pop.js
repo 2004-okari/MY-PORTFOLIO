@@ -2,7 +2,7 @@
 
 const projects = [
   {
-    name: 'Proffesional Art<br>Printing Data',
+    name: 'Proffesional Art Printing Data',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     featuredImage: 'images/Snapshoot Portfolio.svg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
@@ -10,7 +10,7 @@ const projects = [
     linkToSource: 'https://github.com/2004-okari/MY-PORTFOLIO',
   },
   {
-    name: 'Proffesional Art<br>Printing Data',
+    name: 'Proffesional Art Printing Data',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     featuredImage: 'images/Snapshoot Portfolio.svg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
@@ -18,7 +18,7 @@ const projects = [
     linkToSource: 'https://github.com/2004-okari/MY-PORTFOLIO',
   },
   {
-    name: 'Proffesional Art<br>Printing Data',
+    name: 'Proffesional Art Printing Data',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     featuredImage: 'images/Snapshoot Portfolio.svg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
@@ -26,7 +26,7 @@ const projects = [
     linkToSource: 'https://github.com/2004-okari/MY-PORTFOLIO',
   },
   {
-    name: 'Proffesional Art<br>Printing Data',
+    name: 'Proffesional Art Printing Data',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     featuredImage: 'images/Snapshoot Portfolio.svg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
@@ -34,7 +34,7 @@ const projects = [
     linkToSource: 'https://github.com/2004-okari/MY-PORTFOLIO',
   },
   {
-    name: 'Proffesional Art<br>Printing Data',
+    name: 'Proffesional Art Printing Data',
     technologies: ['HTML', 'CSS', 'Sass'],
     featuredImage: 'images/Snapshoot Portfolio.svg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
@@ -42,7 +42,7 @@ const projects = [
     linkToSource: 'https://github.com/2004-okari/MY-PORTFOLIO',
   },
   {
-    name: 'Proffesional Art<br>Printing Data',
+    name: 'Proffesional Art Printing Data',
     technologies: ['HTML', 'Bootstrap', 'Java'],
     featuredImage: 'images/Snapshoot Portfolio.svg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
