@@ -1,3 +1,5 @@
+//  Hamburger Menu
+
 const dropDown = document.getElementById('icon-1');
 const closeUp = document.getElementById('close');
 const items = document.querySelector('.img-1-nav');
