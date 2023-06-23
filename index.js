@@ -47,7 +47,7 @@ function validateEmail() {
     return false;
   }
 
-  if (!email.match('^([0-9a-z]([-.\w]*[0-9a-z])*@([0-9a-z][-\w]*[0-9a-z]\.)+[a-z]{2,3})$')) {
+  if (!email.match(/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/)) {
     emailError.innerHTML = 'Invalid email';
     return false;
   }
