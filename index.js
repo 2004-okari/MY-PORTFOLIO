@@ -74,7 +74,7 @@ function validate() { // eslint-disable-line no-unused-vars
   if (!validateName() || !validateEmail() || !validateText()) {
     submitError.style.display = 'block';
     submitError.innerHTML = 'Please fix error!';
-    setTimeout(() => { submitError.style.display = 'none'; }, 3000);
+    setTimeout(() => { submitError.style.display = 'none'; }, 2500);
     return false;
   }
   return true;
