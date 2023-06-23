@@ -47,7 +47,7 @@ function validateEmail() {
     return false;
   }
 
-  if (!email.match(/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)) {
+  if (!email.match('^([0-9a-z]([-.\w]*[0-9a-z])*@([0-9a-z][-\w]*[0-9a-z]\.)+[a-z]{2,3})$')) {
     emailError.innerHTML = 'Invalid email';
     return false;
   }
@@ -74,7 +74,7 @@ function validate() { // eslint-disable-line no-unused-vars
   if (!validateName() || !validateEmail() || !validateText()) {
     submitError.style.display = 'block';
     submitError.innerHTML = 'Please fix error!';
-    setTimeout(() => { submitError.style.display = 'none'; }, 2500);
+    setTimeout(() => { submitError.style.display = 'none'; }, 3000);
     return false;
   }
   return true;
