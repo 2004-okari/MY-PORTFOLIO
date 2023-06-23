@@ -820,15 +820,36 @@ body {
       margin: 0 auto;
       width: 87.2%;
 
-      #name-id,
-      #email-id {
-        width: 87.2%;
-        margin: 0 auto 0 6.4%;
-        border: none;
-        outline: none;
+      .form-group {
+        display: flex;
+        flex-direction: row;
 
-        &:valid {
-          outline: 1.5px solid green;
+        #name-id {
+          width: 87.2%;
+          margin: 0 auto 0 6.4%;
+          border: none;
+          outline: none;
+        }
+
+        .small-talk {
+          color: red;
+          text-align: center;
+        }
+      }
+
+      .form-group-1 {
+        display: flex;
+        flex-direction: row;
+
+        #email-id {
+          width: 87.2%;
+          margin: 0 auto 0 6.4%;
+          border: none;
+          outline: none;
+        }
+
+        .small-talk-1 {
+          color: red;
         }
       }
 
@@ -839,56 +860,76 @@ body {
         flex: 0%;
       }
 
-      #text-area {
-        background-color: #fbf8f7;
-        height: 5%;
-        width: 87.2%;
-        border: none;
-        margin: 0 auto 5% auto;
-        color: #3c3a39;
-        font-family: 'Inter', Arial, Helvetica, sans-serif;
-        font-style: italic;
-        font-weight: 200;
-        font-size: 15px;
-        padding: 4%;
+      .form-group-2 {
+        display: flex;
+        flex-direction: column;
+
+        #text-area {
+          background-color: #fbf8f7;
+          height: 5%;
+          width: 87.2%;
+          border: none;
+          margin: 0 auto 5% auto;
+          color: #3c3a39;
+          font-family: 'Inter', Arial, Helvetica, sans-serif;
+          font-style: italic;
+          font-weight: 200;
+          font-size: 15px;
+          padding: 4%;
+        }
+
+        .small-talk-2 {
+          color: red;
+          margin: 0 auto 0 6.4%;
+        }
       }
 
-      #submit {
-        width: 131px;
-        height: 48px;
-        margin: 0% 35%;
-        align-self: center;
-        background-color: #ff6b00;
-        border: none;
-        color: #fff;
-        font-family: 'Inter', Arial, Helvetica, sans-serif;
-        font-style: normal;
-        font-weight: 700;
+      .form-group-3 {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 17px;
-        flex-grow: 0;
+        flex-direction: column;
 
-        &:enabled {
-          background-color: #f55800;
-        }
-
-        &:hover {
-          background-color: #fff5e1;
-          border: 1px solid #f55800;
-          color: #f55800;
-          margin-bottom: -0.4%;
-        }
-
-        &:disabled {
-          background: #f4f1f0;
-          color: #5b5957;
-        }
-
-        &:active {
-          background-color: #e05304;
+        #submit {
+          width: 131px;
+          height: 48px;
+          background-color: #ff6b00;
+          align-self: center;
+          border: none;
           color: #fff;
+          font-family: 'Inter', Arial, Helvetica, sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 17px;
+          flex-grow: 0;
+
+          &:enabled {
+            background-color: #f55800;
+          }
+
+          &:hover {
+            background-color: #fff5e1;
+            border: 1px solid #f55800;
+            color: #f55800;
+            margin-bottom: -0.4%;
+          }
+
+          &:disabled {
+            background: #f4f1f0;
+            color: #5b5957;
+          }
+
+          &:active {
+            background-color: #e05304;
+            color: #fff;
+          }
+        }
+
+        .small-talk-3 {
+          color: red;
+          align-self: center;
+          padding-top: 5px;
         }
       }
 
@@ -1152,6 +1193,7 @@ body {
           }
 
           #submit {
+            align-self: flex-start;
             height: 48px;
             text-align: center;
             padding: 2%;
